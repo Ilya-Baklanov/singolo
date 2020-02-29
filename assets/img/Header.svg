@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1022 92" width="1022" height="92">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #2d303a } 
+	</style>
+	<g id="Header">
+		<path id="Header" class="shp0" d="M1 1L1021 1L1021 90L1 90L1 1Z" />
+	</g>
+</svg>
