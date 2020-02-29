@@ -1,0 +1,454 @@
+html {
+    margin: 0em auto;
+    width: 1020px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+  width: 1020px;
+  height: 89px;
+  background-color: #2d303a;
+  margin: 0em auto;
+  padding: 0%;
+  }
+
+#HeaderBottom {
+width: 1020px;
+height: 6px;
+background-color: #323746;
+margin-top: auto;
+}
+
+.logo h1 {
+display: flex;
+font-size: 25px;
+color: #ffffff;
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
+margin-top: 32px;
+margin-left: 39px;
+padding: 0;
+letter-spacing: -0.02em;
+width: 115px;
+height: 20px;
+position: absolute;
+}
+
+.navbar ul {
+display: flex;
+width: 371px;
+height: 9px;  
+position: relative;
+top: 41px;
+left: 609px;
+right: 40px;
+margin: 0;
+padding: 0;
+justify-content: space-between;
+letter-spacing: -0.02em;
+}
+
+.navbar ul li a {
+font-size: 12px;
+line-height: 6px;
+color: #ffffff;
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
+text-decoration: none;
+}
+
+.navbar ul li a:hover {
+font-size: 12px;
+line-height: 6px;
+color: #f06c64;
+font-family: "Lato";
+font-weight: 700;
+text-align: left;
+text-decoration: none;
+}
+
+main {
+margin-top: 0em auto;
+width: 1020px;
+}    
+
+.slider {
+  display: flex;
+width: 1020px;
+height: 594px;
+background-color: #f06c64; 
+position: absolute;
+
+}
+
+.left {
+  display: flex;
+  margin-top: -5px;
+  margin-left: 42px;
+}
+
+.right {
+  display: flex;
+  position: relative;
+  margin-top: -5px;
+  margin-left: 55px;
+}
+
+.ShadowVert {
+  display: flex;
+  margin-left: 54px;
+  margin-top: -5px;
+  position: relative;
+}
+
+.iphoneVert {
+  display: flex;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -17px;
+}
+
+.ShadowHoriz {
+  display: flex;
+  position: relative;
+  margin-left: 74px;
+  margin-top: -6px;
+}
+
+.iphoneHoriz {
+  display: flex;
+  position: absolute;
+  margin-left: 360px;
+  margin-top: 69px;
+}
+
+#SliderBottom {
+width: 1020px;
+height: 6px;
+background-color: #ea676b;
+position: absolute;
+margin-top: 594px;
+}
+
+.services {
+width: 1020px;
+height: 495px;
+background-color: #f2f2f2;
+position: absolute;
+margin-top: 599px;
+}
+
+.services-header {
+display: flex;  
+font-size: 30px;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+margin-top: 69px;
+margin-left: 39px;
+}
+
+.services-p {
+display: flex;
+width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+margin-top: 27px;
+margin-left: 40px;
+letter-spacing: -0.006em;
+word-spacing: 0.001em;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-rows: repeat(2, 86px);
+  grid-template-columns: repeat(3, 300px);
+  grid-template-areas:
+  "pen bulb heart"
+  "phone bubble star";
+margin-left: 40px;
+margin-top: 49px;
+grid-column-gap: 19px;
+grid-row-gap: 37px;
+}
+
+.block-pen {
+  grid-area: pen;
+  display: flex;
+  position: relative;
+  width: 299px;
+  height: 86px; 
+}
+
+.block-pen p {
+width: 219px;
+height: 128px;
+font-size: 12px;
+line-height: 1.79em;
+color: #767e9e;
+font-family: "Lato";
+font-weight: 400;
+text-align: left;
+position: absolute;
+margin-left: 80px;
+margin-top: 27px;
+letter-spacing: 0.01em;
+word-spacing: 0.3em;
+}
+
+.pen {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.CustomDesign {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 80px;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
+
+.block-phone {
+  grid-area: phone;
+  display: flex;
+  position: relative;
+  width: 299px;
+  height: 86px;
+}
+
+.block-phone p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 1.79em;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 27px;
+  letter-spacing: 0.001em;
+  word-spacing: 0.08em;
+}
+
+.phone {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.ResponsiveLayout {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 80px;
+letter-spacing: -0.02em;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
+
+.block-bulb {
+  grid-area: bulb;
+  display: flex;
+  position: relative;
+  width: 305px;
+  height: 86px; 
+}
+
+.block-bulb p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 27px;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+}
+
+.bulb {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.InovativeIdeas {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 80px;
+letter-spacing: -0.02em;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
+
+.block-bubble {
+  grid-area: bubble;
+  display: flex;
+  position: relative;
+  width: 302px;
+  height: 86px; 
+}
+
+.block-bubble p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 1.79em;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 27px;
+  letter-spacing: 0.013em;
+  word-spacing: 0.2em;
+}
+
+.bubble {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.Support {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 80px;
+letter-spacing: -0.02em;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
+
+.block-star {
+  grid-area: star;
+  display: flex;
+  position: relative;
+  width: 302px;
+  height: 86px;
+}
+
+.block-star p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 1.79em;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 27px;
+  letter-spacing: 0.003em;
+  word-spacing: 0.12em;
+}
+
+.star {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.FeelLikeAStar {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 82px;
+letter-spacing: -0.02em;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
+
+.block-heart {
+  grid-area: heart;
+  display: flex;
+  position: relative;
+  width: 305px;
+  height: 86px; 
+}
+
+.block-heart p {
+  width: 219px;
+  height: 128px;
+  font-size: 12px;
+  line-height: 1.79em;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 27px;
+  letter-spacing: 0.008em;
+  word-spacing: 0.13em;
+}
+
+.heart {
+  display: flex;
+  position: relative;
+  align-self: start;
+}
+
+.LoveIsTheAnswer {
+  display: flex;
+font-size: 1.15em;
+line-height: 18px;
+color: #666d89;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+position: absolute;
+margin-left: 82px;
+letter-spacing: -0.02em;
+margin-top: -1px;
+letter-spacing: -0.016em;
+}
