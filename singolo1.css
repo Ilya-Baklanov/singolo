@@ -37,6 +37,10 @@ width: 115px;
 height: 20px;
 position: absolute;
 }
+ 
+#redstar {
+color: #f06c64  
+}
 
 .navbar ul {
 display: flex;
@@ -86,24 +90,45 @@ position: absolute;
 
 }
 
-.left {
+.slider .left {
+  width: 16;
+  height: 27px;
   display: flex;
-  margin-top: -5px;
+  margin-top: 281px;
   margin-left: 42px;
 }
 
-.right {
-  display: flex;
-  position: relative;
-  margin-top: -5px;
-  margin-left: 55px;
+.slider .left :hover {
+width: 36;
+height: 47px;
+display: flex;
+margin-top: -10px;
+margin-left: -5px;
 }
+
+.slider .right {
+  width: 16px;
+  height: 27px;
+  display: flex;
+  position: absolute;
+  margin-top: 281px;
+  margin-left: 964px;
+  }
+  
+  .slider .right :hover {
+  width: 36px;
+  height: 47px;
+  display: flex;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -5px;
+  }
 
 .ShadowVert {
   display: flex;
-  margin-left: 54px;
-  margin-top: -5px;
-  position: relative;
+  margin-left: 112px;
+  margin-top: 53px;
+  position: absolute;
 }
 
 .iphoneVert {
@@ -115,9 +140,9 @@ position: absolute;
 
 .ShadowHoriz {
   display: flex;
-  position: relative;
-  margin-left: 74px;
-  margin-top: -6px;
+  position: absolute;
+  margin-left: 426px;
+  margin-top: 174px;
 }
 
 .iphoneHoriz {
