@@ -46,6 +46,7 @@ font-family: "Lato";
 font-weight: 300;
 text-align: left;
 margin-top: 27px;
+letter-spacing: -0.18px;
 }
 
 .navbar {
@@ -55,6 +56,7 @@ margin-top: 27px;
     margin-left: 41px;
     width: 288px;
     justify-content: space-between;
+    letter-spacing: -0.1px;
 }
 
 .navbar li {
@@ -95,80 +97,19 @@ margin-top: 27px;
 
 .portfolio .grid {
     display: grid;
+    max-width: 940px;
+    max-height: 601px;
     grid-template-columns: repeat(4, 220px);
     grid-template-rows: repeat(3, 187px);
     gap: 20px;
     position: absolute;
     margin: 196px 40px 0 40px;
+    overflow-y: hidden; 
 }
 
 .portfolio .grid img {
     background-color: white;
 }
-
-
-/*
-.portfolio .grid .one {
-background-image: url(./assets/img/1.svg);
-background-position: -8px -11px;
-}
-
-.portfolio .grid .two {
-    background-image: url(./assets/img/2.svg);
-    background-position: -82px -43px;
-}
-
-.portfolio .grid .three {
-    background-image: url(./assets/img/3.svg);
-    background-position: -11px -1px;
-} 
-
-.portfolio .grid .four {
-    background-image: url(./assets/img/4.svg);
-    background-position: -24px -2px;
-}
-
-.portfolio .grid .five {
-    background-image: url(./assets/img/5.svg);
-    background-position: -10px -16px;
-}
-
-.portfolio .grid .six {
-    background-image: url(./assets/img/6.svg);
-    background-position: -16px -4px;
-}
-
-.portfolio .grid .seven {
-    background-image: url(./assets/img/7.svg);
-    background-position: -31px -39px;
-}
-
-.portfolio .grid .eight {
-    background-image: url(./assets/img/8.svg);
-    background-position: -24px -32px;
-}
-
-.portfolio .grid .nine {
-    background-image: url(./assets/img/9.svg);
-    background-position: -16px -2px;
-}
-
-.portfolio .grid .ten {
-    background-image: url(./assets/img/10.svg);
-    background-position: -141px -113px;
-}
-
-.portfolio .grid .eleven {
-    background-image: url(./assets/img/11.svg);
-    background-position: -144px -175px;
-}
-
-.portfolio .grid .twelve {
-    background-image: url(./assets/img/12.svg);
-    background-position: -36px -60px;
-}
-
-*/
 
  .bottomportfolio {
     width: 1020px;
@@ -201,6 +142,7 @@ color: #666d89;
 font-family: "Lato";
 font-weight: 900;
 text-align: left;
+letter-spacing: -0.18px;
 }
 
 .aboutus .header p {
@@ -232,14 +174,6 @@ word-spacing: 0.001em;
     padding-left: 2px;
 }
 
-.aboutus .grid .photo2 {
-
-}
-
-.aboutus .grid .photo3 {
-
-}
-
 .aboutus .grid p {
     width: 300px;
     height: 40px;
@@ -261,6 +195,7 @@ word-spacing: 0.001em;
     text-align: left;
     height: 20px;
     padding-top: 17px;
+    white-space: nowrap;
 }
 
 .social1 {
