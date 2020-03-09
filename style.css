@@ -690,6 +690,7 @@ word-spacing: 0.001em;
     height: 20px;
     padding-top: 17px;
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .social1 {
