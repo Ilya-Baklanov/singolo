@@ -1,0 +1,221 @@
+html {
+    margin: 0em auto;
+    width: 1020px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.getaquote {
+    background-color: #f06c64;
+    height: 648px;
+    width: 1020px;
+    position: absolute;
+}
+
+.headergetaquote {
+margin: 68px 10px 0px 40px;
+}
+
+.headergetaquote h1 {
+font-size: 30px;
+line-height: 18px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 900;
+text-align: left;
+margin: 0;
+}
+
+.headergetaquote p {
+width: 940px;
+height: 57px;
+font-size: 18px;
+line-height: 30px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 300;
+text-align: left;
+margin: 27px 0px 0px 0px;
+}
+
+.contactinfo {
+position: absolute;
+margin: 47px 40px 0px 680px;
+}
+
+.contactinfo h1 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+}
+
+.contactinfo p {
+    width: 305px;
+    height: 100px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+
+.contactinfo a {
+text-decoration: none;
+width: 300px;
+height: 175px;
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 400;
+}
+
+.formforprojectdetails {
+    position: relative;
+    width: 621px;
+}
+
+.inputname {
+width: 619px;
+height: 36px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin: 47px 10px 0px 40px;
+}
+
+.inputname::placeholder{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 0px 0px 14px;
+}
+
+.inputemail {
+width: 619px;
+height: 36px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin: 16px 10px 0px 40px;
+}
+
+.inputemail::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding: 0px 0px 0px 14px;
+}
+
+.inputsubject {
+width: 619px;
+height: 36px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+margin: 16px 10px 0px 40px;
+}
+
+.inputsubject::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+   
+    padding: 0px 0px 0px 14px;
+    vertical-align: text-top;
+}
+
+.textarea {
+width: 619px;
+height: 202px;
+border-radius: 5px;
+background-color: #d6564f;
+border: none;
+padding: 0;
+margin: 16px 10px 0px 40px;
+}
+
+.textarea::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding: 7px 0px 0px 14px;
+    letter-spacing: 0.06px; 
+}
+
+.bottomcontact {
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+    position: absolute;
+    margin-top: 648px;
+}
+
+.footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+    position: absolute;
+    margin-top: 654px;
+    display: flex;
+}
+
+.footer span {
+    font-size: 12px;
+    line-height: 22px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 400;
+    margin: 26.1px 0 0 41.7px;
+    letter-spacing: -0.17px;
+}
+
+.footer a {
+    width: 34px;
+    height: 34px;  
+}
+
+.footerfacebook {
+    margin: 21px 0px 0px 693px;
+}
+
+.footergoogle {
+    margin: 21px 0px 0px 6px;
+}
+
+.footertwitter {
+    margin: 21px 0px 0px 6px;
+}
+
+.footerlinkedin {
+    margin: 21px 0px 0px 6px;
+}
+
+.footer a img {
+width: 34px;
+height: 34px;
+}
+
+.footer a img:hover {
+    width: 43px;
+    height: 43px; 
+}
