@@ -42,7 +42,7 @@ position: absolute;
 color: #f06c64  
 }
 
-.navbar ul {
+.header .navbar ul {
 display: flex;
 width: 371px;
 height: 9px;  
@@ -56,7 +56,7 @@ justify-content: space-between;
 letter-spacing: -0.02em;
 }
 
-.navbar ul li a {
+.header .navbar ul li a {
 font-size: 12px;
 line-height: 6px;
 color: #ffffff;
@@ -66,7 +66,7 @@ text-align: left;
 text-decoration: none;
 }
 
-.navbar ul li a:hover {
+.header .navbar ul li a:hover {
 font-size: 12px;
 line-height: 6px;
 color: #f06c64;
@@ -539,7 +539,7 @@ margin-top: 27px;
 letter-spacing: -0.18px;
 }
 
-.navbar {
+.portfolio .navbar {
     display: flex;
     position: absolute;
     margin-top: 154px;
@@ -549,21 +549,21 @@ letter-spacing: -0.18px;
     letter-spacing: -0.1px;
 }
 
-.navbar li {
+.portfolio .navbar li {
     border: 1px solid;
     border-color:#666d89 ;
     border-radius: 0.3em; 
     height: 20px;
 }
 
-.navbar li:hover {
+.portfolio .navbar li:hover {
     border: 1px solid;
     border-color:#c5c5c5 ;
     border-radius: 0.3em; 
     height: 20px; 
 }
 
-.navbar li a {
+.portfolio .navbar li a {
     text-decoration: none;
     padding: 0.53em;
     font-size: 12px;
@@ -574,7 +574,7 @@ letter-spacing: -0.18px;
     text-align: left;
 }
 
-.navbar li a:hover {
+.portfolio .navbar li a:hover {
     text-decoration: none;
     padding: 0.53em;
     font-size: 12px;
